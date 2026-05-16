@@ -1,0 +1,221 @@
+/* ---------- 1) Content sources (Tailwind v4) ---------- */
+/* Paths are relative to resources/css/app.css */
+@source '../../vendor/laravel/framework/src/Illuminate/Pagination/resources/views/*.blade.php';
+@source '../../storage/framework/views/*.php';
+@source '../**/*.blade.php';
+@source '../**/*.php';
+@source '../**/*.js';
+@source '../**/*.vue';
+
+/* ---------- 2) Tailwind core ---------- */
+@import 'tailwindcss';
+
+/* Optional: site-specific file (kept AFTER tailwind so you can override tokens) */
+@import './landing.css';
+
+/* ---------- 3) Design tokens ---------- */
+@theme {
+  --font-sans: 'Poppins', ui-sans-serif, system-ui, sans-serif,
+    'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol','Noto Color Emoji';
+
+  /* Brand & palette */
+  --color-brand: #00a63e;
+
+  /* You can expose shades if you want semantic helpers later
+     --color-brand-600: #009b56;
+  */
+
+  /* Spacing for sticky header compensation (used below) */
+  --header-h: 56px;
+}
+
+/* ---------- 4) App-wide custom props ---------- */
+:root {
+  --sidebar-active: #009b56;
+}
+
+/* ---------- 5) Utilities (Tailwind v4 @utility) ---------- */
+@utility sidebarLink {
+  @apply flex items-center gap-2 rounded-lg px-3 py-2 text-slate-600 hover:bg-slate-100 hover:text-slate-900 transition-colors;
+}
+
+@utility sidebarLinkActive {
+  @apply bg-slate-100 text-slate-900 font-medium;
+}
+
+@utility profileBubble {
+  @apply h-10 w-10 rounded-full bg-slate-100 flex items-center justify-center font-semibold text-slate-700;
+}
+
+@utility statCard {
+  @apply rounded-xl border bg-white p-4 transition-shadow hover:shadow-sm;
+}
+
+@utility statCardTitle {
+  @apply text-sm font-medium text-slate-700 flex items-center justify-between;
+}
+
+@utility statCardValue {
+  @apply mt-3 text-2xl font-bold;
+}
+
+@utility statCardDesc {
+  @apply mt-1 text-xs text-slate-500;
+}
+
+@utility emptyCard {
+  @apply border rounded-xl bg-white p-10 flex flex-col items-center justify-center text-center;
+}
+
+@utility emptyIcon {
+  @apply h-12 w-12 rounded-full border flex items-center justify-center text-slate-400;
+}
+
+@utility emptyTitle {
+  @apply mt-4 text-base font-semibold text-slate-800;
+}
+
+@utility emptyDesc {
+  @apply mt-1 text-sm text-slate-500 max-w-md;
+}
+
+@utility emptyActions {
+  @apply mt-6 flex items-center gap-3;
+}
+
+@utility emptyBtnGhost {
+  @apply px-4 py-2 rounded-lg text-sm font-medium border hover:bg-slate-50 transition-colors;
+}
+
+@utility emptyBtnSolid {
+  @apply px-4 py-2 rounded-lg text-sm font-medium bg-slate-900 text-white hover:bg-slate-800 transition-colors;
+}
+
+/* Optional brand helpers */
+@utility textBrand {
+  color: var(--color-brand);
+}
+
+@utility bgBrand {
+  background-color: var(--color-brand);
+}
+
+@utility borderBrand {
+  border-color: var(--color-brand);
+}
+
+/* ---------- 6) JS feature hooks ---------- */
+/* Reveal-on-scroll (legacy helper, still safe to keep) */
+.reveal {
+  opacity: 0;
+  transform: translateY(8px);
+  transition: opacity .24s ease, transform .24s ease;
+}
+
+.reveal.is-visible {
+  opacity: 1;
+  transform: none;
+}
+
+/* Sticky header-safe in-page anchors (used by smooth-scrolling) */
+[id] {
+  scroll-margin-top: calc(var(--header-h) + 8px);
+}
+
+/* Respect reduced motion */
+@media (prefers-reduced-motion: reduce) {
+  .reveal,
+  .reveal.is-visible {
+    transition: none !important;
+  }
+}
+
+/* ---------- 7) View Transitions scoping ---------- */
+/* Ensure only the main content participates in transitions, not header/footer */
+#page-root {
+  view-transition-name: page;
+}
+
+/* Optional: avoid flicker on first paint */
+html:has(#page-root) {
+  view-transition-name: none;
+}
+
+/* Slide-out animation (can be used for modals / toasts) */
+@keyframes slide-out-top {
+  0% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+  100% {
+    transform: translateY(-30px);
+    opacity: 0;
+  }
+}
+
+.animate-slide-out-top {
+  animation: slide-out-top 0.6s ease-in-out forwards;
+}
+
+/* --- 8) Landing page animation helpers (CodeCred-style) --- */
+
+@keyframes float-soft {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-6px);
+  }
+}
+
+.float-soft {
+  animation: float-soft 6s ease-in-out infinite;
+}
+
+/* Fade-up on reveal (paired with IntersectionObserver in app.js) */
+.fade-up-init {
+  opacity: 0;
+  transform: translateY(20px);
+}
+
+.fade-up-active {
+  opacity: 1;
+  transform: translateY(0);
+  transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+}
+
+/* Small hover lift like CodeCred buttons/cards */
+.hover-lift {
+  transition: transform 200ms ease, box-shadow 200ms ease;
+}
+
+.hover-lift:hover {
+  transform: translateY(-3px);
+}
+
+/* Simple underline animation for nav links (header) */
+.nav-link-underline {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.25rem;
+}
+
+.nav-link-underline::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: -0.1rem;
+  width: 100%;
+  height: 2px;
+  background-color: currentColor;
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform 200ms ease;
+}
+
+.nav-link-underline:hover::after,
+.nav-link-underline:focus-visible::after {
+  transform: scaleX(1);
+}
+

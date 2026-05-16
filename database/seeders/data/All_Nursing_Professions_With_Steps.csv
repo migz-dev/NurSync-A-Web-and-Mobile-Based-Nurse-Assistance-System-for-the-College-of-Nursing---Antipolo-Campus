@@ -1,0 +1,50 @@
+Category,Level,Profession,Description,Steps
+Entry-Level,1,Nursing Assistant (CNA),"Provides basic patient care (ADLs, vitals).",Finish HS/GED → Complete CNA program → Pass skills & written exam → Obtain state certificate → Apply to hospital/LTC facility
+Entry-Level,1,Licensed Practical/Vocational Nurse (LPN/LVN),Provides routine nursing care under RN/MD supervision.,Finish HS/GED → Complete 1‑yr LPN/LVN diploma → Pass NCLEX‑PN → Get state license → Start in hospital/clinic → Option: LPN‑to‑RN bridge
+Entry-Level,1,Student Nurse,Enrolled in nursing program; performs supervised clinical duties.,Enroll in ADN/BSN → Complete didactic + clinical rotations → Pass practicums → Graduate → Sit for NCLEX‑RN
+Core Practice,2,Registered Nurse (RN),Licensed professional nurse responsible for patient care & coordination.,Earn ADN or BSN → Pass NCLEX‑RN → Obtain RN license → Start in hospital/community → Complete unit orientation
+Core Practice,2,Staff Nurse (Ward/Unit RN),Delivers bedside care across various units.,"Hold RN license → Join unit residency/orientation → Master charting, meds, safety → Maintain BLS/ACLS as required"
+Core Practice,2,Community Health Nurse (CHN),Delivers preventive care & health programs in the community.,RN license → Complete CHN/public health training → Join LGU/DOH/community clinic → Lead outreach & surveillance
+Core Practice,2,School Nurse,Manages student health services and programs.,RN license → School nurse/PEd/child health courses → Coordinate with school admin → Implement health protocols
+Core Practice,2,Occupational/Industrial Nurse,"Handles workplace health, safety, and compliance.",RN license → Occupational health & safety training → Coordinate with HR & safety officers → Maintain records/compliance
+Specialty,3,Medical-Surgical Nurse,Adult acute care and post‑operative management.,RN license → 1–2 yrs acute care → Review med‑surg core → Take CMSRN exam → Maintain CEUs
+Specialty,3,Emergency/Trauma Nurse,Triage and manage emergent/critical patients.,RN license → ER residency → Earn BLS/ACLS/PALS/TNCC → Sit for CEN → Ongoing simulation/competency
+Specialty,3,ICU/Critical Care Nurse,Manages life‑support and complex hemodynamics.,RN license → 1–2 yrs ICU → BLS/ACLS → CCRN review & exam → Annual competencies
+Specialty,3,Operating Room (Perioperative) Nurse,"Pre‑op, intra‑op, and post‑op surgical care.",RN license → Periop 101/OR training → CNOR exam → Option: RNFA training
+Specialty,3,PACU/Perianesthesia Nurse,Recovers post‑anesthesia patients.,RN license → Perianesthesia course → ACLS/PALS → CPAN/CAPA certification
+Specialty,3,Pediatric Nurse,"Cares for infants, children, adolescents.",RN license → Work in pedia unit → PALS → CPN certification
+Specialty,3,Neonatal/NICU Nurse,Cares for premature and critically ill newborns.,RN license → NICU orientation → NRP → Neonatal certification
+Specialty,3,OB-GYN/Maternal-Newborn Nurse,"Antepartum, labor, delivery, postpartum, newborn.",RN license → OB orientation → NRP & fetal monitoring → RNC‑OB/RNC‑MNN
+Specialty,3,Oncology Nurse,"Cancer care, chemo, symptom & palliative management.",RN license → Chemo certification (ONS) → OCN exam → Participate in tumor boards
+Specialty,3,Psychiatric/Mental Health Nurse,Therapeutic communication & crisis intervention.,RN license → Psych facility training → PMH‑BC exam → De‑escalation & therapy modules
+Specialty,3,Geriatric/Gerontology Nurse,"Elderly care, chronic disease & LTC.",RN license → LTC/geri rotations → GERO‑BC exam → Dementia & falls programs
+Specialty,3,Dialysis/Renal Nurse,Hemodialysis and peritoneal dialysis care.,RN license → Dialysis center preceptorship → CDN/CNN certification → Ongoing water/system competencies
+Specialty,3,Cardiac/Telemetry Nurse,"Monitors arrhythmias, drips, chest pain protocols.","RN license → Telemetry competencies → ACLS → Cardiac cert (e.g., PCCN)"
+Specialty,3,Cath Lab Nurse,Assists with cardiac catheterization/interventions.,RN license → Cath lab orientation → ACLS → Radiation safety → Call rotation competency
+Specialty,3,Endoscopy/GI Nurse,"Scopes, sedation, and recovery.",RN license → Endo training → Moderate sedation certification → CGRN exam (optional)
+Specialty,3,Wound/Ostomy/Continence (WOC) Nurse,Advanced wound care and ostomy management.,RN license → WOCN education program → CWOCN exam → Implement wound care protocols
+Specialty,3,Burn Nurse,Acute burn resuscitation & rehab.,RN license → Burn unit orientation → ABLS → Ongoing competencies
+Specialty,3,Rehabilitation Nurse,Restorative care & functional recovery.,RN license → Rehab unit training → CRRN exam
+Specialty,3,Infection Prevention & Control Nurse,"HAI surveillance, policies, outbreak response.",RN license → IP training → CIC exam → Audit & education programs
+Specialty,3,Public Health Nurse,Population health programs & surveillance.,RN license → PHN training/course → Join DOH/LGU programs → Lead campaigns
+Specialty,3,Home Health Nurse,Provides in‑home skilled nursing and education.,RN license → Home health orientation → Case management workflow → Safety & documentation mastery
+Specialty,3,Hospice/Palliative Care Nurse,End‑of‑life symptom relief & family support.,RN license → Palliative courses → CHPN certification
+Specialty,3,Forensic Nurse,Cares for victims; collects medico‑legal evidence.,RN license → SANE/forensic training → Certification → Coordinate with legal agencies
+Specialty,3,Flight/Transport Nurse,Aeromedical transport & prehospital critical care.,RN license → ICU/ER experience (3+ yrs) → FP‑C/CFRN certification → Flight physiology training
+Specialty,3,Case Management Nurse,"Care coordination, utilization review, discharge planning.",RN license → Case management training → CCM/ACM certification
+Specialty,3,Quality Improvement (QI) Nurse,"Leads safety, QA, and process improvement.","RN license → QI tools (PDSA, Six Sigma) → CPHQ certification"
+Specialty,3,Telehealth Nurse,Remote assessment & patient education via technology.,RN license → Telehealth workflows training → Data privacy & triage protocols
+Specialty,3,Informatics Nurse,Bridges clinical practice and health IT/EHR systems.,RN license → Informatics coursework → NI‑BC certification
+Advanced Practice (APRN),4,Nurse Practitioner (NP),"Advanced clinician; diagnosis, treatment, prescribing.",Earn BSN → Clinical RN exp (2–3 yrs) → Complete MSN/DNP NP program → Pass NP boards → Apply for APRN license → Maintain CE/DEA
+Advanced Practice (APRN),4,Clinical Nurse Specialist (CNS),"Expert clinician, educator, consultant in a specialty.",BSN → MSN/DNP (CNS track) → Certification → Implement EBP projects → Mentor staff
+Advanced Practice (APRN),4,Certified Registered Nurse Anesthetist (CRNA),Delivers anesthesia & peri‑anesthesia care.,BSN → 2+ yrs ICU RN → DNP/MSN Anesthesia → Pass NBCRNA → State license & privileges
+Advanced Practice (APRN),4,Certified Nurse Midwife (CNM),Primary reproductive & perinatal care.,BSN → Midwifery MSN/DNP → Pass AMCB exam → APRN license → Hospital/birth center privileges
+Leadership/Education/Research,5,Nurse Educator,Teaches students/staff; develops curricula & simulations.,BSN → MSN (Nursing Education) → CNE certification → Teach & evaluate → Scholarship/service
+Leadership/Education/Research,5,Nurse Administrator/Manager,"Leads units; staffing, budgeting, policy.",BSN → Leadership experience → MSN/MBA → NE‑BC/NEA‑BC → Lead unit/department
+Leadership/Education/Research,5,Director of Nursing / CNO,Executive leadership; strategic nursing practice.,BSN → MSN/DNP or MBA → Proven leadership → Executive role appointment
+Leadership/Education/Research,5,Nurse Researcher/Scientist,Designs studies; advances nursing science.,BSN → MSN (research) → PhD/DNP → IRB/ethics → Publish & secure grants
+Leadership/Education/Research,5,Legal Nurse Consultant,Advises on medico‑legal cases & standards of care.,RN license → Legal nurse courses → Build portfolio → Consult for law firms/insurers
+Leadership/Education/Research,5,Nurse Entrepreneur,"Builds nursing‑led businesses (clinics, education, tech).",RN license → Identify market → Business plan → Compliance/permits → Launch & scale
+Doctoral/Global,6,Doctor of Nursing Practice (DNP),Practice‑focused doctorate; systems/leadership focus.,BSN/MSN → DNP program → Residency/Capstone → Implement system‑level change → Executive practice
+Doctoral/Global,6,PhD in Nursing,Research doctorate; theory & discovery.,BSN/MSN → PhD program → Dissertation → Publications/teaching → Lead research center
+Doctoral/Global,6,Global Health Nurse Leader,Leads international health initiatives & policy.,Advanced degree → Global fellowship/NGO roles → Lead programs → Influence policy

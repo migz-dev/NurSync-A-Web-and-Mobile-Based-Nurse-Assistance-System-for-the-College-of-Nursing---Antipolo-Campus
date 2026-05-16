@@ -1,0 +1,110 @@
+category,ward_scope,item_name,variants_or_examples,typical_uses,related_procedures_or_tasks,notes
+General,All,Stethoscope,"Adult, Pediatric, Cardiology","Auscultation of heart, lungs, bowel","vitals, assessment",Clean earpieces & diaphragm between patients
+General,All,Thermometer,"Digital oral/axillary, Tympanic, Temporal",Temperature monitoring,vitals,Disinfect probe covers or use disposable sheaths
+General,All,Sphygmomanometer,"Aneroid, Digital; cuffs: neonatal–thigh",Blood pressure measurement,vitals,Calibrate periodically; correct cuff size critical
+General,All,Pulse oximeter,"Finger clip, Continuous monitor",Oxygen saturation monitoring,"vitals, oxygen-therapy",Ensure warm fingers; remove nail polish
+General,All,Glucometer,Point-of-care meters,Capillary blood glucose,blood-glucose-monitoring-glucometer,Quality control strips; sharps disposal
+General,All,Penlight,LED penlight,"Pupil reaction, wound inspection","assessment, neuro-check",Replace batteries regularly
+General,All,Watch with second hand,Analog or digital with seconds,Counting pulse/respirations,vitals,—
+General,All,Measuring tape,Flexible tape,"Anthropometrics, wound size","assessment, wound-dressing",Clean after contact
+General,All,Tongue depressor,"Wooden, Sterile",Oral/throat inspection,assessment,Dispose after single use
+General,All,Bandage scissors,"Lister, Trauma shears",Cut dressings/tape,wound-dressing,Keep clean; do not use on wires
+General,All,PPE – Gloves,"Non-sterile, Sterile",Standard & contact precautions,all invasive procedures,Check integrity; correct size
+General,All,PPE – Masks,"Surgical mask, N95/FFP2",Droplet/airborne precautions,"suctioning, aerosol procedures",Fit-testing for respirators
+General,All,Face shield / goggles,"Reusable, Disposable",Eye protection,"suctioning, IV insertion",Disinfect after each use
+General,All,Gown / Apron,"Disposable, Reusable",Body fluid exposure protection,"wound care, delivery",Follow donning/doffing protocol
+General,All,Alcohol-based hand rub,ABHR dispenser 60–80% alcohol,Hand hygiene,all,Place at point of care
+General,All,Soap & water station,Antimicrobial soap,Handwashing when visibly soiled,all,Paper towels preferred
+General,All,Sharps container,Puncture-proof,Safe sharps disposal,"injections, IV cannulation",Do not overfill past line
+General,All,Waste bins (segregated),Black/Green/Yellow/Red,Healthcare waste disposal,all,Follow DOH segregation rules
+General,All,Medication tray,"With cups, labels",Dose preparation & admin,"oral-medication, mar",Clean tray per shift
+General,All,Pill cutter / crusher,Manual devices,Tablet splitting/crushing,oral-medication,Check if crushing is allowed
+General,All,Documentation tools,"Charts, MAR, EHR workstation",Record vital signs/meds/notes,"mar, nurses-notes",Ensure privacy; log out
+General,All,Otoscope/ophthalmoscope,Wall-mounted set,Ear and funduscopic exam,assessment,Disinfect specula
+Procedures,All/ER/MS,IV catheter set,"18–24G catheters, tourniquet, alcohol swabs",Peripheral IV insertion,"iv-insertion, infusion-therapy",Use aseptic technique; secure well
+Procedures,All/ICU/ER,Infusion pump,"Volumetric, PCA",Accurate IV infusion control,infusion-therapy,Check alarm & occlusion sensors
+Procedures,All/ICU,Syringe pump,5–60 mL,Titrated IV meds,infusion-therapy,Use dedicated line; label syringes
+Procedures,All,IV stand,Adjustable,Hang IV fluids,infusion-therapy,Lock wheels
+Procedures,All,Heplock/extension set,PRN adapter,Intermittent IV access,iv-maintenance,Flush per protocol
+Procedures,All,Injection supplies,Syringes 1–10 mL; needles IM/SC/ID,Medication administration,"im-injection, sc-injection, id-injection",Follow 5+ rights; sharps disposal
+Procedures,All,Alcohol swabs,70% IPA pads,Skin antisepsis,"injections, iv-insertion",Allow to dry before puncture
+Procedures,All,Tourniquet,Latex-free,Venous access,"phlebotomy, iv-insertion",Remove promptly after cannulation
+Procedures,All,Urinary catheter set,"Foley catheter, tray, drape, antiseptic, drainage bag",Catheterization,urinary-catheterization,Maintain sterile technique; secure tubing
+Procedures,All,Wound dressing set,"Sterile forceps, scissors, basin, gauze, tape",Dressing change,wound-dressing,No-touch technique; pain control
+Procedures,All,Suction machine,Portable/electric with canister,Airway suctioning,oral/nasopharyngeal-suctioning,Set pressure per age; PPE required
+Procedures,All/ER/ICU,Bag-valve mask (Ambu bag),Adult/pediatric/neonatal masks,Manual ventilation,"basic-life-support, resuscitation",Connect to O2; ensure good seal
+Procedures,All/ER/ICU,Oxygen delivery sets,"Nasal cannula, simple mask, NRB mask, venturi",Oxygen therapy,oxygen-therapy,Humidify if >4 L/min via NC
+Procedures,All/ER/ICU,Nebulizer kit,Jet nebulizer with mask/mouthpiece,Aerosolized medication,nebulization,Clean cup; replace tubing per policy
+Procedures,All,Therapeutic heat/cold packs,Hot/cold gel packs,Pain & swelling management,comfort-measures,Use barrier to protect skin
+Procedures,All,Tracheostomy care set,"Inner cannula, brush, ties, dressing",Tracheostomy care,tracheostomy-care,Suction before cleaning if needed
+Procedures,All,NG tube & accessories,"NGT sizes, lubricant, pH paper, 50 mL syringe, tape",Enteral access/feeding,ng-nasogastric-tube-insertion-techniques-nursing-skills,Verify placement; aspiration & pH/x-ray per policy
+Procedures,All,Enteral feeding set,"Feeding bag, tubing",Gravity/pump feeding,enteral-feeding,Flush before/after meds
+Procedures,All,Specimen collection kits,"Urine/stool cups, swabs, sputum cups",Diagnostics specimen collection,"urinalysis, stool-test, sputum-collection",Label at bedside; biohazard transport
+Procedures,All,ECG machine,12‑lead with electrodes,Cardiac monitoring,ecg-acquisition,Skin prep; lead placement per standard
+Procedures,All,Defibrillator (AED/manual),Biphasic defib,Cardiac arrest management,advanced-life-support,Daily checks; gel/pads not expired
+Procedures,OR/DR/ER,Electrocautery unit,Monopolar/bipolar,Hemostasis during procedures,minor-surgery-assist,Check grounding pad; burns risk
+Monitoring,All,Multiparameter monitor,"ECG, SpO2, NIBP, Temp, Resp",Continuous monitoring,icu-monitoring,Set alarm limits; document trends
+Monitoring,All,Vital signs trolley,"BP set, thermometer, SpO2",Round-the-ward vitals,vitals,Restock per shift
+Furniture,All,Hospital bed,Manual/electric,Patient positioning & safety,all,Bed brakes on; side rails per policy
+Furniture,All,Bedside table / overbed table,Adjustable,Surface for care & meals,all,Disinfect between patients
+Furniture,All,Wheelchair,"Standard, bariatric",Patient transport,transfer,Footrests up during transfer
+Furniture,All,Stretcher,With side rails,Transport & ER intake,transfer,Lock brakes when stationary
+Furniture,OR,Mayo stand,Height-adjustable,Instrument placement in OR,sterile-setup,Sterile drape required
+Surgery/OR,OR,Surgical instrument sets,"Basic, Major, Minor, Ortho","Incision, dissection, suturing","instrument-passing, wound-closure",Count instruments/sponges
+Surgery/OR,OR,Anesthesia machine,"With vaporizers, ventilator",Provide anesthesia,anesthesia-assist,Daily check & scavenging system
+Surgery/OR,OR,Autoclave/sterilizer,"Steam, dry heat",Instrument sterilization,cssd,Use indicators; log cycles
+Surgery/OR,OR,Suture materials,"Absorbable, non-absorbable",Wound closure,suturing-assist,Track needle/sharp counts
+Surgery/OR,OR,Surgical lights,Ceiling-mounted,Illumination during surgery,surgery,Check backup power
+Critical Care,ICU,Mechanical ventilator,Invasive & non-invasive modes,Respiratory support,ventilator-management,Circuit changes per policy; humidification
+Critical Care,ICU,Closed suction system,Inline suction,Airway clearance for ventilated pts,tracheal-suction,Maintain sterility of circuit
+Critical Care,ICU,Arterial line kit,"Catheter, transducer set",Invasive BP monitoring,art-line-setup,Zeroing at phlebostatic axis
+Critical Care,ICU,Central line kit,"CVC, guidewire, drapes",Central venous access,cvc-insertion-assist,Max barrier precautions
+Critical Care,ICU,Pressure transducer,Disposable set,Hemodynamic monitoring,icp/ibp-monitoring,Level & zero each shift
+Maternal/Child,OB/DR,Delivery set,"Forceps, scissors, clamps",Assisted delivery,normal-spontaneous-delivery-assist,Instrument count & sterility
+Maternal/Child,OB/DR,Fetal doppler/CTG,"Handheld doppler, CTG monitor",Fetal heart monitoring,intrapartum-monitoring,Apply gel; interpret variability
+Maternal/Child,OB/DR,Baby warmer,Radiant warmer,Thermal regulation for newborn,neonatal-resuscitation,Preheat; check temp probe
+Maternal/Child,OB/DR,Cord clamp & kit,Disposable clamp,Umbilical cord care,newborn-care,Ensure sterility
+Maternal/Child,OB/DR,Episiotomy set,"Scissors, needle holder",Perineal suturing,episiotomy-repair,Local anesthesia readiness
+Maternal/Child,Pedia/NICU,Incubator,Transport or stationary,Thermoregulation,nicu-care,Humidity & temperature alarms
+Maternal/Child,Pedia,Pediatric resuscitation kit,"Airway adjuncts, masks",PALS resuscitation,pediatric-resuscitation,Size-appropriate equipment
+Community,CHN,Field bag,"BP set, thermometer, tape, forms","Home visits, screenings",chn-visit,Restock per itinerary
+Community,CHN,Portable scale & stadiometer,Infant sling scale,Growth monitoring,chn-screening,Zero before use
+Community,CHN,Vaccine carrier,Cold box with ice packs,Immunization outreach,vaccination-clinic,Monitor cold chain temperature
+Community,CHN,Rapid test kits,"RDTs (e.g., dengue, malaria) per policy",Point-of-care diagnostics,chn-testing,Biohazard disposal
+Emergency,ER,Trauma kit,"C-collar, splints, trauma shears",Initial stabilization,atls-primary-survey,Check sizes & integrity
+Emergency,ER,Spine board,"With straps, head blocks",Immobilization & transfer,trauma-transfer,Pad pressure points
+Emergency,ER,Tourniquet (hemorrhage),Combat application tourniquet,Bleeding control,hemorrhage-control,Time stamp application
+Ward,MS,Urinal/bedpan,"Male urinal, fracture pan",Elimination needs,bedside-care,Label & clean after use
+Ward,MS,Commode chair,Wheeled or stationary,Assisted toileting,mobility-care,Lock wheels before transfer
+Ward,MS,Linen & gown set,"Patient gowns, sheets",Hygiene & comfort,"bed-bath, linen-change",Segregate soiled linens
+Ward,MS,Humidifier bottle,For O2 therapy,Humidification,oxygen-therapy,Change sterile water per policy
+Ward,MS,Air mattress/overlay,Ripple/alternating pressure,Pressure injury prevention,pressure-ulcer-prevention,Check skin daily
+Psych,Psych,De-escalation toolkit,"Comfort room, soft restraints per policy",Behavioral emergencies,psychiatric-care,Follow least-restrictive policy
+Ortho,Ortho,Casting/splinting materials,"Plaster, fiberglass, slings",Immobilization,fracture-care,Monitor circulation & skin
+Onco,Onco,Chemotherapy PPE set,"Chemo-rated gloves, gown, goggles",Hazardous drug handling,chemo-administration-assist,Use chemo waste bins
+Onco,Onco,Laminar flow hood (BSC),Class II biological safety cabinet,Aseptic chemo preparation (pharmacy),chemo-prep,Certification required
+Renal,Dialysis,Dialysis machine,Hemodialysis unit,Renal replacement therapy,dialysis-assist,Water quality & disinfection protocols
+Respiratory,ICU/Ward,Peak flow meter,Portable,Assess airway obstruction,asthma-monitoring,Best of 3 readings
+Respiratory,ICU/Ward,Spirometer (incentive),Volumetric,Post-op breathing exercises,post-op-care,Encourage hourly use
+Laboratory,Lab,Microscope,Monocular/Binocular,Slide examination,lab-microscopy,Cover & clean lenses
+Laboratory,Lab,Centrifuge,Bench-top,Serum/hematocrit separation,lab-processing,Balance tubes; lid lock
+Laboratory,Lab,Hematology analyzer,CBC analyzer,Complete blood count,cbc,Calibrate; QC controls daily
+Laboratory,Lab,Chemistry analyzer,Automated analyzer,"Glucose, electrolytes, enzymes",chemistry-panel,Reagent storage & QC
+Laboratory,Lab,Urinalysis dipsticks,Multistix,POC urinalysis,urinalysis,Check expiration; proper timing
+Laboratory,Lab,Blood collection set,"Vacutainer needles, holders",Phlebotomy,phlebotomy,Order of draw; label at bedside
+Laboratory,Lab,Collection tubes,"EDTA, Citrate, Heparin, Serum",Appropriate specimen storage,phlebotomy,Invert as recommended
+Laboratory,Lab,Glass slides & coverslips,Pre-cleaned,Smear prep,lab-microscopy,Handle by edges
+Laboratory,Lab,Refrigerator (medical),2–8°C,Specimen & reagent storage,lab-storage,Temperature logs
+Laboratory,Lab,Biohazard transport bags,Zip-seal,Specimen transport,lab-transport,Triple packaging rule
+Laboratory,Lab,Autoclave (lab),Bench-top,Sterilize media/instruments,lab-sterilization,Biological indicators routine
+Laboratory,Lab,Incubator,37°C,Culture growth,microbiology,Clean spills immediately
+Laboratory,Lab,Bunsen burner/spirit lamp,With striker,Aseptic technique,microbiology,Fire safety; tie hair
+Laboratory,Lab,pH meter/pH paper,Bench pH meter,Measure pH (fluids),chemistry,Calibrate with buffers
+Laboratory,Lab,Weighing scale (analytical),0.1 mg resolution,Reagent prep,chemistry,Use draft shield
+Simulation,Skills Lab,Adult manikin,Basic care manikin,"Bed bath, turning, wound care","basic-care, wound-dressing",Dry after use; store properly
+Simulation,Skills Lab,Pediatric & neonatal manikins,Infant CPR manikin,Pediatric procedures training,"pediatric-care, neonatal-resuscitation",Check airways & lungs for leaks
+Simulation,Skills Lab,Airway trainer,Intubation head,Airway management training,airway-management,Lubricate blades properly
+Simulation,Skills Lab,IV arm & injection pads,Replaceable veins/skins,IV & injection practice,"iv-insertion, injections",Flush with water after sessions
+Simulation,Skills Lab,Birthing simulator,Maternal-fetal simulator,Delivery practice,delivery-simulation,Follow manufacturer maintenance
+Simulation,Skills Lab,Defib trainer/AED trainer,Training-mode device,Basic life support drills,bls-training,Non-energized trainer pads
+Simulation,Skills Lab,Vital signs monitor (trainer),Demo unit,Scenario-based monitoring,simulation,Label as TRAINER only

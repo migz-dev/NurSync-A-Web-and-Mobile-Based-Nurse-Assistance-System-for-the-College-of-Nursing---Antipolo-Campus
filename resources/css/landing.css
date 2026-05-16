@@ -1,0 +1,202 @@
+/* resources/css/landing.css */
+/* ---------- LIGHT THEME UTILITIES (CodeCred-style) ---------- */
+@layer utilities {
+
+    /* Navigation links */
+    .nav-link-light {
+        @apply text-slate-600 hover:text-slate-900 transition-colors;
+    }
+
+    /* Buttons */
+    .btn-green-light {
+        @apply inline-flex items-center gap-2 rounded-xl bg-green-600 px-5 py-3 font-semibold text-white hover:bg-green-700 transition-colors;
+    }
+
+    .btn-ghost-light {
+        @apply inline-flex items-center gap-2 rounded-xl border border-slate-300 px-5 py-3 text-slate-700 hover:bg-slate-50 transition-colors;
+    }
+
+    .btn-black {
+        @apply inline-flex items-center gap-2 rounded-xl bg-black text-white px-6 py-3 font-semibold hover:bg-slate-900 transition-colors;
+    }
+
+    .btn-outline {
+        @apply inline-flex items-center gap-2 rounded-xl border border-slate-300 px-6 py-3 text-slate-800 hover:bg-slate-50 transition-colors;
+    }
+
+    /* Pills / badges */
+    .pill-light {
+        @apply rounded-full border border-slate-300 bg-white px-3 py-1 text-xs text-slate-600;
+    }
+
+    .badge-emerald-light {
+        @apply rounded-lg bg-emerald-100 text-emerald-700 px-3 py-1 text-xs font-semibold;
+    }
+
+    /* Stats */
+    .stat-number-light {
+        @apply text-2xl font-bold text-slate-900;
+    }
+
+    .stat-label-light {
+        @apply text-xs text-slate-500;
+    }
+
+    /* Feature card hover */
+    .card-hover-light {
+        transition: transform .25s ease, box-shadow .25s ease;
+    }
+
+    .card-hover-light:hover {
+        transform: translateY(-4px);
+        box-shadow: 0 10px 40px -16px rgba(2, 6, 23, .15);
+    }
+
+    /* Gradient text accent */
+    .gradient-text-light {
+        background: linear-gradient(90deg, #0ea5e9, #22d3ee, #22c55e);
+        -webkit-background-clip: text;
+        background-clip: text;
+        color: transparent;
+    }
+
+    /* Reveal-on-scroll */
+    .reveal {
+        opacity: 0;
+        transform: translateY(16px);
+    }
+
+    .reveal.is-visible {
+        opacity: 1;
+        transform: none;
+        transition: opacity .6s ease, transform .6s ease;
+    }
+}
+
+/* Section spacing */
+.section-pad {
+    padding: 5rem 0;
+}
+
+/* Subtle grid background behind hero */
+.bg-grid-slate {
+    background-image:
+        linear-gradient(to right, rgba(2, 6, 23, .06) 1px, transparent 1px),
+        linear-gradient(to bottom, rgba(2, 6, 23, .06) 1px, transparent 1px);
+    background-size: 40px 40px;
+    background-position: center;
+    background-color: #fff;
+}
+
+/* Marquee (for the pill scroller) */
+.marquee {
+    animation: marquee 20s linear infinite;
+    will-change: transform;
+}
+
+@keyframes marquee {
+    from {
+        transform: translateX(0);
+    }
+
+    to {
+        transform: translateX(-50%);
+    }
+}
+
+/* Timeline (light) */
+.timeline-line-light {
+    position: absolute;
+    left: calc(50% - 1px);
+    top: 0;
+    bottom: 0;
+    width: 2px;
+    background: linear-gradient(to bottom, transparent, rgba(2, 6, 23, .08), transparent);
+    display: none;
+}
+
+@media (min-width:1024px) {
+    .timeline-line-light {
+        display: block;
+    }
+}
+
+.timeline-card-light {
+    position: relative;
+}
+
+.timeline-dot-light {
+    position: absolute;
+    left: -18px;
+    top: -10px;
+    width: 36px;
+    height: 36px;
+    border-radius: 9999px;
+    display: grid;
+    place-items: center;
+    font-weight: 700;
+    font-size: .8rem;
+    color: #0ea5e9;
+    background: #eaf6ff;
+    border: 1px solid #bfdbfe;
+}
+
+/* Page transitions (View Transitions API) */
+::view-transition-old(root),
+::view-transition-new(root) {
+    animation-duration: .28s;
+}
+
+@media (prefers-reduced-motion: reduce) {
+
+    ::view-transition-old(root),
+    ::view-transition-new(root) {
+        animation-duration: 0s !important;
+    }
+}
+
+/* Enable and time the root view transition */
+::view-transition-old(root),
+::view-transition-new(root) {
+    animation-duration: .26s;
+}
+
+/* Initial fade-in class used by JS */
+:root {
+    opacity: 0;
+    transition: opacity .22s ease;
+}
+
+:root.vt-loaded {
+    opacity: 1;
+}
+
+@media (prefers-reduced-motion: reduce) {
+
+    ::view-transition-old(root),
+    ::view-transition-new(root) {
+        animation-duration: 0s !important;
+    }
+
+    :root {
+        transition: none !important;
+        opacity: 1 !important;
+    }
+}
+
+    html {
+      opacity: 1 !important;
+    }
+
+/* Primary button (was “black”) */
+.btn-black{
+  display:inline-flex; align-items:center; justify-content:center; gap:.5rem;
+  padding:.75rem 1rem; border-radius:0.75rem; font-weight:600;
+  color:#fff; background:var(--brand, #00a63e);
+  transition: background-color .2s ease, box-shadow .2s ease, transform .05s ease;
+}
+.btn-black:hover{ background:var(--brand-700, #008a34); }
+.btn-black:active{ transform: translateY(1px); }
+.btn-black:focus-visible{
+  outline:0; box-shadow:0 0 0 3px var(--brand-ring, rgba(0,166,62,.28));
+}
